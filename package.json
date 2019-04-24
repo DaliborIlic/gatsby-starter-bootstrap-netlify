@@ -1,6 +1,6 @@
 {
-  "name": "BH Telecom",
-  "description": "Moja priča",
+  "name": "gatsby-starter-bootstrap-netlify",
+  "description": "BH Telecom",
   "version": "1.0.0",
   "author": "Dalibor Ilić <dalibor.ilic@bhtelecom.ba>",
   "dependencies": {
