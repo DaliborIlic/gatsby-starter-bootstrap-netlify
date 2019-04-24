@@ -9,9 +9,9 @@ export default function Template ({ data }) {
   return (
     <Layout>
       <div>
-        <Helmet title={`${phone.frontmatter.model} ${phone.frontmatter.manufacturer} | ${data.site.siteMetadata.title}`} />
+        <Helmet title={`${phone.frontmatter.model}  | ${data.site.siteMetadata.title}`} />
         <Container>
-          <h1 className='display-3'>{phone.frontmatter.model}{phone.frontmatter.manufacturer}</h1>
+          <h1 className='display-3'>{phone.frontmatter.model}</h1>
         </Container>
         <Container dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
@@ -25,7 +25,6 @@ export const phoneQuery = graphql`
       html
       frontmatter {
         path
-        manufacturer
         model
       }
     }

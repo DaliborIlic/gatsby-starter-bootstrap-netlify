@@ -78,5 +78,5 @@ collections:
           default: "phone",
         }
       - { label: "Path", name: "path", widget: "hidden", default: "/phone" }
-      - { label: "Manufacturer", name: "manufacturer", widget: "select", options: ["Acer", "Alcatel", "Apple", "CAT", "Coolpad", "HTC", "Huawei", "Lenovo"] } 
+      - { label: "Manufacturer", name: "manufacturer", widget: "select", options: ["Acer", "Alcatel", "Apple", "CAT", "Coolpad", "HTC", "Huawei", "Lenovo", "Tesla"] } 
       - { label: "Model", name: "model", widget: "string"}       
