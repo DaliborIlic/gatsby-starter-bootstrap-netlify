@@ -68,7 +68,7 @@ collections:
   - name: "phone"
     label: "Phone"
     folder: "src/pages/phone"
-    create: true
+    create: false
     slug: "{{slug}}"
     fields:
       - {
