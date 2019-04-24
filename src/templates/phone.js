@@ -9,9 +9,9 @@ export default function Template ({ data }) {
   return (
     <Layout>
       <div>
-        <Helmet title={`${phone.frontmatter.model} ${phone.frontmatter.model} | ${data.site.siteMetadata.title}`} />
+        <Helmet title={` | ${data.site.siteMetadata.title}`} />
         <Container>
-          <h1 className='display-3'>{phone.frontmatter.model}</h1>
+          <h1 className='display-3'></h1>
         </Container>
         <Container dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
