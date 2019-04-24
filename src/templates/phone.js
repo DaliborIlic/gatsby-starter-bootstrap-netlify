@@ -25,8 +25,8 @@ export const phoneQuery = graphql`
       html
       frontmatter {
         path
-        model
         manufacturer
+        model        
       }
     }
     site {
