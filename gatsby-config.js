@@ -6,6 +6,8 @@ module.exports = {
     disqus: 'gatsby-starter-blog'// put your disqus ID here
   },
   plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
