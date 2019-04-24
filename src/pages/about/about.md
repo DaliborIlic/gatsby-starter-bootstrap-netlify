@@ -3,7 +3,7 @@ contentType: about
 path: /about
 title: About Me
 ---
-![](/files/draper.jpg)
+![null](/files/p30-pro-watch-gt-03.jpg)
 
 This is a placeholder page.
 
