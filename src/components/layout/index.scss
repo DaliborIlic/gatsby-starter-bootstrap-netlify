@@ -1,30 +1,3 @@
-// Bootstrap 4 & Bootswatch Cosmo theme
-// Feel free to comment out anything you're not using
-
-//// bootswatch theme overrides
-// @import "bootswatch/dist/cerulean/variables";
-// @import "bootswatch/dist/cosmo/variables";
-// @import "bootswatch/dist/cyborg/variables";
-// @import "bootswatch/dist/darkly/variables";
-// @import "bootswatch/dist/flatly/variables";
-// @import "bootswatch/dist/journal/variables";
-// @import "bootswatch/dist/litera/variables";
-// @import "bootswatch/dist/lumen/variables";
-// @import "bootswatch/dist/lux/variables";
-// @import "bootswatch/dist/materia/variables";
-// @import "bootswatch/dist/minty/variables";
-// @import "bootswatch/dist/pulse/variables";
-// @import "bootswatch/dist/sandstone/variables";
-// @import "bootswatch/dist/simplex/variables";
-// @import "bootswatch/dist/sketchy/variables";
-// @import "bootswatch/dist/slate/variables";
-// @import "bootswatch/dist/solar/variables";
-// @import "bootswatch/dist/spacelab/variables";
-// @import "bootswatch/dist/superhero/variables";
-// @import "bootswatch/dist/united/variables";
-// @import "bootswatch/dist/yeti/variables";
-
-
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
@@ -61,33 +34,6 @@
 // @import "bootstrap/scss/carousel";
 @import "bootstrap/scss/utilities";
 
-
-//// bootswatch theme overrides
-// @import "bootswatch/dist/cerulean/bootswatch";
-// @import "bootswatch/dist/cosmo/bootswatch";
-// @import "bootswatch/dist/cyborg/bootswatch";
-// @import "bootswatch/dist/darkly/bootswatch";
-// @import "bootswatch/dist/flatly/bootswatch";
-// @import "bootswatch/dist/journal/bootswatch";
-// @import "bootswatch/dist/litera/bootswatch";
-// @import "bootswatch/dist/lumen/bootswatch";
-// @import "bootswatch/dist/lux/bootswatch";
-// @import "bootswatch/dist/materia/bootswatch";
-// @import "bootswatch/dist/minty/bootswatch";
-// @import "bootswatch/dist/pulse/bootswatch";
-// @import "bootswatch/dist/sandstone/bootswatch";
-// @import "bootswatch/dist/simplex/bootswatch";
-// @import "bootswatch/dist/sketchy/bootswatch";
-// @import "bootswatch/dist/slate/bootswatch";
-// @import "bootswatch/dist/solar/bootswatch";
-// @import "bootswatch/dist/spacelab/bootswatch";
-// @import "bootswatch/dist/superhero/bootswatch";
-// @import "bootswatch/dist/united/bootswatch";
-// @import "bootswatch/dist/yeti/bootswatch";
-
-//@import "_variables.scss";
-
-
 // page-level layout
 
 .App {
@@ -109,10 +55,3 @@
     padding-left: 10px; 
   }
 }
-
-$orange: #fe8300;
-$primary: $orange;
-$font-family-sans-serif: "Montseraat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-size-base: 1.1rem;
-$enable-rounded: false;
-$enable-shadows: true;
