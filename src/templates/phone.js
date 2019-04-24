@@ -20,12 +20,13 @@ export default function Template ({ data }) {
 }
 
 export const phoneQuery = graphql`
-  query Phone($path: String!) {
+  query thePhone($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
         path
- 
+        manufacturer
+        model 
       }
     }
     site {
