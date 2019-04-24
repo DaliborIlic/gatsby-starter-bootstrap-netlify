@@ -20,7 +20,7 @@ export default function Template ({ data }) {
 }
 
 export const phoneQuery = graphql`
-  query AboutPage($path: String!) {
+  query Phone($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
