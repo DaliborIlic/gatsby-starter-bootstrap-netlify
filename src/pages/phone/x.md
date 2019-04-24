@@ -1,7 +1,7 @@
 ---
 contentType: phone
 path: /phone
-manufacturer: Tesla
+manufacturer: CAT
 model: XY
 ---
 
