@@ -11,7 +11,7 @@ export default function Template ({ data }) {
       <div>
         <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} />
         <Container>
-          <h1 className='display-3'>{post.frontmatter.manufacturer} {post.frontmatter.model}</h1>
+          <h1 className='display-3'>{post.frontmatter.model}</h1>
         </Container>
         <Container dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
@@ -25,7 +25,6 @@ export const phoneQuery = graphql`
       html
       frontmatter {
         path
-        manufacturer
         model
       }
     }
