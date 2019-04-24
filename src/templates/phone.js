@@ -5,11 +5,11 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
 export default function Template ({ data }) {
-  const { markdownRemark: post } = data
+  const { markdownRemark: phone } = data
   return (
     <Layout>
       <div>
-        <Helmet title={`${phone.frontmatter.model}  | ${data.site.siteMetadata.title}`} />
+        <Helmet title={`${phone.frontmatter.model} ${phone.frontmatter.model} | ${data.site.siteMetadata.title}`} />
         <Container>
           <h1 className='display-3'>{phone.frontmatter.model}</h1>
         </Container>
