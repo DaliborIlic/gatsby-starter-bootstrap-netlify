@@ -13,7 +13,7 @@ export default function Template ({ data }) {
         <Container>
           <h1 className='display-3'></h1>
         </Container>
-        <Container dangerouslySetInnerHTML={{ __html: post.html }} />
+        <Container dangerouslySetInnerHTML={{ __html: phone.html }} />
       </div>
     </Layout>
   )
