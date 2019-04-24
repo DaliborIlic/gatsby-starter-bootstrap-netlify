@@ -3,7 +3,7 @@ contentType: about
 path: /about
 title: About Me
 ---
-![](/files/web-8-mart.jpg)
+![null](/files/web-8-mart.jpg)
 
 This is a placeholder page. For real.
 
