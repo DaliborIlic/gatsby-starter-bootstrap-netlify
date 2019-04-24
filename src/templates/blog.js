@@ -18,19 +18,7 @@ export default function Template ({ data }) {
   return (
     <Layout>
       <div>
-        <Helmet title={`Blog | ${post.frontmatter.title}`}>
-          {data.site.siteMetadata.disqus && (
-            <script id='dsq-count-scr' src='//gatsby-starter-blog.disqus.com/count.js' async />
-          )}
-          {data.site.siteMetadata.disqus && (
-            <script>{`(function() {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://${data.site.siteMetadata.disqus}.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-          })();`}</script>
-          )}
-        </Helmet>
+        <Helmet title={`Blog | ${post.frontmatter.title}`} />
         <Container>
           <h1 className='display-3'>{post.frontmatter.title}</h1>
         </Container>
@@ -58,11 +46,6 @@ export default function Template ({ data }) {
             </Card>
           ))}
         </CardGroup></Container>)}
-
-        {data.site.siteMetadata.disqus && (<Container>
-          <hr />
-          <div id='disqus_thread' />
-        </Container>)}
       </div>
     </Layout>
   )
@@ -70,12 +53,7 @@ export default function Template ({ data }) {
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
-    site {
-      siteMetadata {
-        disqus
-      }
-    }
-    
+   
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

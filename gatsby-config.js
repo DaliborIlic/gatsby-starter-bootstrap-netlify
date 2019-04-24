@@ -2,8 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'BH Telecom',
     author: 'Dalibor',
-    authorLink: 'https://github.com/DaliborIlic/',
-    disqus: 'gatsby-starter-blog'// put your disqus ID here
+    authorLink: 'https://github.com/DaliborIlic/'
   },
   plugins: [
     `gatsby-plugin-sharp`,
