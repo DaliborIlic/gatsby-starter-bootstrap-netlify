@@ -64,6 +64,7 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 1140,
               linkImagesToOriginal: false,
+              quality: 85
             },
           },
         ],
