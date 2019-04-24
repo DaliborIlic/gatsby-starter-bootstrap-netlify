@@ -64,3 +64,19 @@ collections:
       - { label: "Path", name: "path", widget: "hidden", default: "/about" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "phone"
+    label: "Phone"
+    folder: "src/pages/phone"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Content Type",
+          name: "contentType",
+          widget: "hidden",
+          default: "phone",
+        }
+      - { label: "Path", name: "path", widget: "hidden", default: "/phone" }
+      - { label: "Manufacturer", name: "Manufacturer", widget: "select", options: ["Acer", "Alcatel", "Apple", "CAT, "Coolpad", "HTC", "Huawei", "Lenovo"] } 
+      - { label: "Model", name: "model", widget: "string"}       
